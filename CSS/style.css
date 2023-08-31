@@ -1,4 +1,4 @@
-html, body {margin: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif;   
+html, body {margin: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 header{ background-color: #020239; color: white; height: 100px; width: 100%;  
   z-index: 10; margin: top 100%; position: fixed;
@@ -8,24 +8,19 @@ header{ background-color: #020239; color: white; height: 100px; width: 100%;
 }
 #menu{border: 5%x; float: right; margin-right: 5%; margin-top: 5%; visibility: hidden;
 }
-@media all and (max-width:768px) 
-li{float: left; list-style: none; 
-  padding: 5px;  margin-top: 0%;
-}
 li:hover { background-color: rgb(8, 194, 226);}
-h1,h2,h3,h4 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1,h2,h3,h4 {font-family: Verdana;
 }
  
 
-#fundo {
-  background: url("../fundo.png");height: 100%;  text-align: center; background-size: cover ;  
+#fundo {  background: url("../fundo.png");height: 100%;  text-align: center; background-size: cover ;  
 }
  
-  #titulo {color: white; padding-top: 10%; padding-left: 20%;padding-right: 20%; font-size: 60px;
+  #titulo {color: white; padding-top: 15%; padding-left: 20%;padding-right: 20%; font-size: 60px;
   
 }
 
-  #subtitulo {color: white; padding-top: 10%; padding-left: 20%;padding-right: 20% 
+  #subtitulo {color: white; padding-top: 5%; padding-left: 20%;padding-right: 20% 
   }
   
   #acao {color: rgb(18, 18, 255); border: 1px; color: white solid; padding: 10px 20px 10px 20px
@@ -44,12 +39,10 @@ h1,h2,h3,h4 {font-family: Verdana, Geneva, Tahoma, sans-serif;
   .centralizado{text-align: center;} 
   .coluna{float: left; padding: 05%; position: relative; width: 40%;}
   .colunaicone{float: left; padding: 05%; position: relative; width: 15%;}
-  .coluna3{width: 29%; padding: 0 2%; float: left; position: relative;} 
+  .coluna3{width: 29%; padding: 0,2%; float: left; position: relative;} 
   .ods14{color: blue;}
   .footer{background-color: rgb(232, 245, 247); color: rgb(2, 12, 95); text-align: center;}
   
-  #footer{float: left; margin-left: ;}
-   .coluna, .colunaicone, .coluna3 .footer{display: block; width: 90%; padding: 0%; margin: 10px auto; float: none; margin-left: 0px;}
-   #logodiv{ width: 100%; position: relative; text-align: center;}
-   #logo {margin-left: 0px; transform: translate(-50%);}
-  
+   @media  all and( max-width: 768px)
+   @media screen  { max-width: 768px ; 
+   }
