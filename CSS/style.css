@@ -1,15 +1,15 @@
 html, body {margin: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
-header{ background-color: rgb(2, 2, 57); color: white; height: 100px; width: 100%; position: fixed; 
-  z-index: 10; margin: top 100%;
+header{ background-color: #020239; color: white; height: 100px; width: 100%;  
+  z-index: 10; margin: top 100%; position: fixed;
 }
 
 #logo{ width: 100px; float: left; margin-left: 5%; position: absolute;
 }
-#menu{border: 5px; float: right; margin-right: 5%; margin-top: 0%;
+#menu{border: 5%x; float: right; margin-right: 5%; margin-top: 5%;
 }
 li{float: left; list-style: none; 
-  padding: 20px;  margin-top: 0%;
+  padding: 5px;  margin-top: 0%;
 }
 li:hover { background-color: rgb(8, 194, 226);}
 h1,h2,h3,h4 {font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,4 +48,5 @@ h1,h2,h3,h4 {font-family: Verdana, Geneva, Tahoma, sans-serif;
   .footer{background-color: rgb(232, 245, 247); color: rgb(2, 12, 95); text-align: center;}
   
   #footer{float: left; margin-left: ;}
+  @media all and (max-width:768px)
    
