@@ -50,6 +50,6 @@ h1,h2,h3,h4 {font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   #footer{float: left; margin-left: ;}
    .coluna, .colunaicone, .coluna3 .footer{display: block; width: 90%; padding: 0%; margin: 10px auto; float: none; margin-left: 0px;}
-   #logodiv{ width: 100%; border: 1px salmon; position: relative; text-align: center;}
+   #logodiv{ width: 100%; position: relative; text-align: center;}
    #logo {margin-left: 0%; transform: translate(-50%);}
   
