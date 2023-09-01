@@ -5,22 +5,22 @@ header{ background-color: #020239; color: white; height: 100px; width: 100%;
   z-index: 10; margin: top 100%; position: fixed;  
   top: 0}
 
-#logo{ width: 100px; float: left; margin-left: 0%; position: absolute; transform: translatex(-50%);
+#logo{ width: 100px; float: left; margin-left: 05%; position: absolute; transform: translatex(-50%);
 }
 #logodiv {width: 100%; position: relative; text-align: center; margin-left: 0px;}
 #menu{border: 2%px solid; float: right; margin-right: 2%; margin-top: 2%;  
   list-style: none;
  }
-li:hover { background-color: rgb(8, 194, 226); }
+ 
 h1,h2,h3,h4 {font-family: Verdana;
 }
 li{padding: 20px; float :left;  }
  
 
-#fundo {  background: url("../fundo.png");height: 100%;  text-align: center; background-size: cover ;  
+#fundo {background: url("../fundo.png");height: 100%;  text-align: center; background-size: cover ;  
 }
  
-  #titulo {color: white; padding-top: 15%; padding-left: 20%;padding-right: 20%; font-size: 60px;
+  #titulo {color: white; padding-top: 20%; padding-left: 20%;padding-right: 20%; font-size: 60px;
   
 }
 
@@ -50,8 +50,20 @@ li{padding: 20px; float :left;  }
   .coluna3{width: 30%; padding: 0.2%; float: left; position: relative;} 
   .coluna,.colnaicone,.coluna3 { display: block; width: 80%;padding: 0%;margin: 10px auto; float: none;}
 
-  .ods14{color: rgb(0, 0, 255);}
+  .ods14{color: rgb(4, 4, 254);}
 
-  .footer.centralizado{background-color: #08c2e2; text-align: center;}
+  .footer.centralizado{background-color: rgb(4, 4, 254) text-align: center;}
+  
+footer {
+  background-color: #01acea;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0 50px 0;
+  color: #fff;
+}
+footer .container {
+  padding: 30px 0 50px 0;
+}
    
    @media all and( max-width: 768px) { #menu { visibility: hidden;}}
