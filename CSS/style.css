@@ -1,16 +1,19 @@
-html, body {margin: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif;  
+html, body {margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
+
 header{ background-color: #020239; color: white; height: 100px; width: 100%;  
-  z-index: 10; margin: top 100%; position: fixed;
-}
+  z-index: 10; margin: top 100%; position: fixed;  
+  top: 0}
 
 #logo{ width: 100px; float: left; margin-left: 5%; position: absolute;
 }
-#menu{border: 5%x; float: right; margin-right: 5%; margin-top: 5%; visibility: hidden;
-}
-li:hover { background-color: rgb(8, 194, 226);}
+#menu{border: 2%px solid; float: right; margin-right: 2%; margin-top: 2%;  
+  list-style: none;
+ }
+li:hover { background-color: rgb(8, 194, 226); }
 h1,h2,h3,h4 {font-family: Verdana;
 }
+li{padding: 20px; float :left;  }
  
 
 #fundo {  background: url("../fundo.png");height: 100%;  text-align: center; background-size: cover ;  
@@ -27,22 +30,26 @@ h1,h2,h3,h4 {font-family: Verdana;
   
   }
   
-  .icone{width: 55px;} 
+  .icone{width: 60%;} 
   
   section{ padding:20px; float: left}
 
-  .destaque {padding 20px; background-color: rgba(93, 237, 242, 0.514); float}
+  .destaque {padding: 20px ; background-color: rgba(93, 237, 242, 0.514); float;}
 
-  .imgprojeto{width: 90%;}
+  .imgprojeto{width: 0%;}
 
   .justificado{text-align:justify;}
+
   .centralizado{text-align: center;} 
+
   .coluna{float: left; padding: 05%; position: relative; width: 40%;}
+
   .colunaicone{float: left; padding: 05%; position: relative; width: 15%;}
-  .coluna3{width: 29%; padding: 0,2%; float: left; position: relative;} 
-  .ods14{color: blue;}
-  .footer{background-color: rgb(232, 245, 247); color: rgb(2, 12, 95); text-align: center;}
-  
+
+  .coluna3{width: 30%; padding: 0.2%; float: left; position: relative;} 
+
+  .ods14{color: rgb(0, 0, 255);}
+
+  .footer.centralizado{background-color: #08c2e2; text-align: center;}
+   
    @media  all and( max-width: 768px)
-   @media screen  { max-width: 768px ; 
-   }
