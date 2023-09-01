@@ -8,7 +8,7 @@ header{ background-color: #020239; color: white; height: 100px; width: 100%;
 #logo{ width: 100px; float: left; margin-left: 20%; position: absolute; transform: translatex(-50%);
 }
 #logodiv {width: 100%; position: relative; text-align: center; margin-left: 0px;}
-#menu{border: 2%px solid; float: right; margin-right: 2%; margin-top: 2%;  
+#menu{border: 2px solid; float: right; margin-right: 2%; margin-top: 2%;  
   list-style: none;
  }
  
