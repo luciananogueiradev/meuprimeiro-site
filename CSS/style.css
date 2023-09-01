@@ -5,8 +5,9 @@ header{ background-color: #020239; color: white; height: 100px; width: 100%;
   z-index: 10; margin: top 100%; position: fixed;  
   top: 0}
 
-#logo{ width: 100px; float: left; margin-left: 5%; position: absolute;
+#logo{ width: 100px; float: left; margin-left: 0%; position: absolute; transform: translatex(-50%);
 }
+#logodiv {width: 100%; position: relative; text-align: center; margin-left: 0px;}
 #menu{border: 2%px solid; float: right; margin-right: 2%; margin-top: 2%;  
   list-style: none;
  }
@@ -36,7 +37,7 @@ li{padding: 20px; float :left;  }
 
   .destaque {padding: 20px ; background-color: rgba(93, 237, 242, 0.514); float;}
 
-  .imgprojeto{width: 0%;}
+  .imgprojeto{width: 60%;}
 
   .justificado{text-align:justify;}
 
@@ -47,9 +48,10 @@ li{padding: 20px; float :left;  }
   .colunaicone{float: left; padding: 05%; position: relative; width: 15%;}
 
   .coluna3{width: 30%; padding: 0.2%; float: left; position: relative;} 
+  .coluna,.colnaicone,.coluna3 { display: block; width: 80%;padding: 0%;margin: 10px auto; float: none;}
 
   .ods14{color: rgb(0, 0, 255);}
 
   .footer.centralizado{background-color: #08c2e2; text-align: center;}
    
-   @media  all and( max-width: 768px)
+   @media all and( max-width: 768px) { #menu { visibility: hidden;}}
